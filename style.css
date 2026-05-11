@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root {
+/*:root {
     --primario: #fff;
     --fondo: #ffebf2; 
     --fondo-sobre: #ffe3ed; 
@@ -13,8 +13,17 @@
     --sombra: rgba(0, 0, 0, 0.2);
     --texto: #003049; 
     --corazon: #ff477e; 
+}*/
+:root {
+    --primario: #fff;
+    --fondo: #c5eaff;/*#ffebf2; */
+    --fondo-sobre: #ffe3ed; 
+    --solapa-sobre: #7dcefd; 
+    --cuerpo-sobre: #81D7FC;/*#ffc1d1; */
+    --sombra: rgba(0, 0, 0, 0.2);
+    --texto: #003049; 
+    --corazon: #ff477e; 
 }
-
 body {
     background: var(--fondo);
     display: flex;
